@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-size: 1.2rem;
+            overflow: hidden;
+            font-family: 'Poppins', sans-serif;
+            padding: none;
+            border: none;
+            background-color: #111;
+        }
+        div{
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+            color: #aaa;
+        }
+        h2{  
+            text-align: left;
+            font-size: 18px;
+            padding: 10px 20px;
+            color: #575ed8;
+        }
+        div input{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border: 0;
+            display: block;
+            width: 50%;
+            background: #222;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            color: #aaa;
+        }
+        button{
+            background: #575ed8;
+            color: #fff;
+            font-size: 18px;
+            border: 0;
+            padding: 12px 0;
+            width: 50%;
+            border-radius: 0 0 2px 2px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatRooms</title>
+</head>
+<body>
+    <div>
+        <h2>ChatRooms</h2>
+        <form action="/rooms">
+            <h4>Username</h4>
+            <input type="text" name="usrName" id="usrName" required>
+            <h4>Roomname</h4>
+            <input type="text" name="roomName" id="roomName" required>
+            <br>
+            <button type="submit">Join</button>
+        </form>
+    </div>
+</body>
+</html>
